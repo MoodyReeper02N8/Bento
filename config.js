@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Colton',
+	name: 'GenericMood',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: true,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '6f4444536fc0c5defe3906712d4fb26d', // Write here your API Key
+	weatherKey: '8c93f231773a54fc2277d6ff4b680e87', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '39.755630',
+	defaultLongitude: '-77.577667',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=160&ct=1726343138&rver=7.0.6738.0&wp=MBI_SSL&wreply=https%3A%2F%2Foutlook.live.com%2Fowa%2F%3Fnlp%3D1%26cobrandid%3Dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26deeplink%3Dowa%252f%26RpsCsrfState%3Deec45d8d-59fe-5063-87a9-708b338f9359&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2Cflname%2Cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Trello',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://trello.com/',
 		},
 		{
 			id: '4',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
